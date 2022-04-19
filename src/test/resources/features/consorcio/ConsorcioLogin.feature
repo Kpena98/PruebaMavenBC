@@ -1,3 +1,4 @@
+@LB-122
 Feature: Ingresar a login consorcio
 	Se espera ingresar al login de consorcio pasando por banca y seguros.
 
