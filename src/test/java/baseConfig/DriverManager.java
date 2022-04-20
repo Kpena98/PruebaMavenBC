@@ -35,11 +35,11 @@ private String extensionDriver = "";
     	        WebDriverManager.chromedriver().setup();
     	        ChromeOptions chromeOptions = new ChromeOptions();
     	        //Activar si es necesario
-    		//	chromeOptions.addArguments("--ignore-certificate-errors"); 
-    		//	chromeOptions.addArguments("--disable-extensions");
-    		//	chromeOptions.addArguments("--disable-dev-shm-usage");
-    		//	chromeOptions.addArguments("--disable-gpu");
-    		//	chromeOptions.addArguments("--no-sandbox");
+    			chromeOptions.addArguments("--ignore-certificate-errors"); 
+    			chromeOptions.addArguments("--disable-extensions");
+    			chromeOptions.addArguments("--disable-dev-shm-usage");
+    			chromeOptions.addArguments("--disable-gpu");
+    			chromeOptions.addArguments("--no-sandbox");
     			
     			if (os.contains("linux")) {
     			  chromeOptions.addArguments("--headless");
