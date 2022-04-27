@@ -1,2 +1,2 @@
 # PruebaMavenBC
-Esta es una prueba de automatizacion con maven
+Esta es una prueba de automatizacion con maven con fallas del proyecto
